@@ -1,0 +1,148 @@
+@import "colores" ;
+
+@import "footer" ;
+
+@import "btn" ;
+
+@import "navbar" ;
+
+@import "hero" ;
+
+@import "nosotros";
+
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    
+}
+
+
+p{
+    font-size: 18px;
+    color: $color2;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.topmargin-xs{ margin-top: 15px;}
+.topmargin-sm{margin-top: 30px;}
+.topmargin-lg{margin-top: 60px;}
+
+
+
+.whitespace{
+    height: 200px;
+}
+
+
+
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+
+
+#carousel{
+    min-height: 100px;
+    padding: 40px;
+    
+}
+
+
+
+.formulario{
+    margin: 35px;
+    padding: 35px;
+}
+
+
+
+
+@media (max-width: 575.98px) { 
+    h1{ font-size: 40px; line-height: normal;}
+
+    .d-inline{
+    display: block !important;
+    padding: 20px 0 !important;
+    justify-content: center;
+    }
+}
+
+
+@media (max-width: 767.98px) { }
+
+
+@media (max-width: 991.98px) { }
+
+
+@media (max-width: 1199.98px) { }
+
+
+
+.fondonosotros{
+    background-image: url(../images/fondonosotros.jpg);
+    background-size: cover;
+    opacity: 80%;
+    background-attachment: fixed;   
+    
+}
+    
+.carolina{
+    margin-bottom: 40px;
+    margin-top: 40px;   
+    padding: 30px; 
+}
+    
+.carolina :hover{
+    font-weight: bolder;
+}
+
+
+.caro{
+    background-color:transparent;
+    min-height: 250px;
+}
+
+.nombrecaro{
+    color: darkblue;
+    font-weight: bold;
+}
+    
+.foto1{
+    background-color: lightgray;
+}
+    
+.matias{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 30px;
+}
+    
+.matias :hover{
+    font-weight: bolder;
+}
+    
+.mati{
+    background-color: transparent;
+    min-height: 250px;
+}
+
+.nombremati{
+    color: darkblue;
+    font-weight: bold;    
+    
+}
+    
+.foto2{
+    background-color: lightgray;
+}

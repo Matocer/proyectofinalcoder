@@ -1,0 +1,40 @@
+.navbar{
+    background-color: $color1;
+    min-height: 100px;
+    
+}
+
+.nav-link{
+    color:$color2;
+}
+
+.nav-link:hover{
+    color: $color5;
+}
+
+.logo-brand{
+    max-width: 320px;
+    min-width: 200px;
+}
+
+
+.navbar-toggler{ 
+    font-size: 40px;
+}
+
+
+.navbar-toggler:focus {
+   outline: none;
+}
+
+
+.navbar-brand{
+    animation-duration: 5s;
+    animation-name: opacidad;    
+}
+
+@keyframes opacidad{
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+

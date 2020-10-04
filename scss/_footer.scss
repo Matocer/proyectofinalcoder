@@ -1,0 +1,46 @@
+#footer{
+    padding: 80px;
+    text-align: center;
+    background-color:$color3;
+       
+}
+
+
+#footer.list-inline li .list-inline-item { 
+   padding: 10px 15px ;
+}
+
+ion-icon {
+    font-size: 25px;
+}
+
+.logo-brand-footer{
+
+    max-width: 250px;
+    min-width: 250px;
+    padding: 50px; 
+    margin: 50px;
+    
+    
+
+}
+
+.logo-instagram:hover{
+    transform: scale(1,2);
+}
+
+
+.logo-facebook:hover{
+    transform: scale(1,2);
+
+}
+
+
+.logo-youtube:hover{
+    transform: scale(1,2);
+}
+
+
+.logo-twitter:hover{
+    transform: scale(1,2);
+}

@@ -1,0 +1,13 @@
+#hero{
+    background-image: url(../images/pexels-shiny-diamond.jpg);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 600px;
+    color: $color1;
+    background-attachment: fixed;
+}
+
+
+#hero p {
+    color: $color1;
+}
