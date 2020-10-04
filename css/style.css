@@ -1,0 +1,317 @@
+#footer {
+  padding: 80px;
+  text-align: center;
+  background-color: #e8e8e8; }
+
+#footer.list-inline li .list-inline-item {
+  padding: 10px 15px; }
+
+ion-icon {
+  font-size: 25px; }
+
+.logo-brand-footer {
+  max-width: 250px;
+  min-width: 250px;
+  padding: 50px;
+  margin: 50px; }
+
+.logo-instagram:hover {
+  transform: scale(1, 2); }
+
+.logo-facebook:hover {
+  transform: scale(1, 2); }
+
+.logo-youtube:hover {
+  transform: scale(1, 2); }
+
+.logo-twitter:hover {
+  transform: scale(1, 2); }
+
+.btn {
+  font-size: 14px;
+  padding: 15px 26px;
+  min-width: 160px;
+  border-radius: 6px;
+  display: inline-block; }
+
+.btn-light {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  border: 2px solid #ffffff; }
+
+.btn {
+  font-size: 14px;
+  margin-left: 5px;
+  color: #00416d; }
+
+.btn-light {
+  width: 70px;
+  height: 70px;
+  background: transparent;
+  transition: width 2s; }
+
+.btn-light:hover {
+  width: 250px; }
+
+.navbar {
+  background-color: #ffffff;
+  min-height: 100px; }
+
+.nav-link {
+  color: #1a1a1a; }
+
+.nav-link:hover {
+  color: #40bad5; }
+
+.logo-brand {
+  max-width: 320px;
+  min-width: 200px; }
+
+.navbar-toggler {
+  font-size: 40px; }
+
+.navbar-toggler:focus {
+  outline: none; }
+
+.navbar-brand {
+  animation-duration: 5s;
+  animation-name: opacidad; }
+
+@keyframes opacidad {
+  0% {
+    opacity: 0%; }
+  100% {
+    opacity: 100%; } }
+
+#hero {
+  background-image: url(../images/pexels-shiny-diamond.jpg);
+  background-size: cover;
+  padding-top: 90px;
+  min-height: 600px;
+  color: #ffffff;
+  background-attachment: fixed; }
+
+#hero p {
+  color: #ffffff; }
+
+.fondonosotros {
+  background-image: url(../images/fondonosotros.jpg);
+  background-size: cover;
+  opacity: 80%;
+  background-attachment: fixed; }
+
+.carolina {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding: 30px; }
+
+.carolina :hover {
+  font-weight: bolder; }
+
+.caro {
+  background-color: transparent;
+  min-height: 250px; }
+
+.nombrecaro {
+  color: darkblue;
+  font-weight: bold; }
+
+.foto1 {
+  background-color: lightgray; }
+
+.matias {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding: 30px; }
+
+.matias :hover {
+  font-weight: bolder; }
+
+.mati {
+  background-color: transparent;
+  min-height: 250px; }
+
+.nombremati {
+  color: darkblue;
+  font-weight: bold; }
+
+.foto2 {
+  background-color: lightgray; }
+
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px; }
+
+p {
+  font-size: 18px;
+  color: #1a1a1a;
+  line-height: 1.8;
+  margin-bottom: 0; }
+
+.topmargin-xs {
+  margin-top: 15px; }
+
+.topmargin-sm {
+  margin-top: 30px; }
+
+.topmargin-lg {
+  margin-top: 60px; }
+
+.whitespace {
+  height: 200px; }
+
+.content-center {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center; }
+
+#carousel {
+  min-height: 100px;
+  padding: 40px; }
+
+.formulario {
+  margin: 35px;
+  padding: 35px; }
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 40px;
+    line-height: normal; }
+  .d-inline {
+    display: block !important;
+    padding: 20px 0 !important;
+    justify-content: center; } }
+
+
+
+.fondonosotros {
+  background-image: url(../images/fondonosotros.jpg);
+  background-size: cover;
+  opacity: 80%;
+  background-attachment: fixed; }
+
+.carolina {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding: 30px; }
+
+.carolina :hover {
+  font-weight: bolder; }
+
+.caro {
+  background-color: transparent;
+  min-height: 250px; }
+
+.nombrecaro {
+  color: darkblue;
+  font-weight: bold; }
+
+.foto1{
+  background-color: lightgray
+};
+  
+
+.matias {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding: 30px; }
+
+.matias :hover {
+  font-weight: bolder; }
+
+.mati {
+  background-color: transparent;
+  min-height: 250px; }
+
+.nombremati {
+  color: darkblue;
+  font-weight: bold; }
+
+.foto2 {
+  background-color: lightgray; }
+
+
+
+
+
+
+
+
+
+.ortinvisible{
+    background-image: url(../images/invisalign.gif);
+    background-size: cover;
+    min-height: 400px;
+    opacity: 100%;
+    border: 5px solid lightgrey;
+   
+}
+
+
+.ortopedia{
+    background-image: url(../images/ortopedia.gif);
+    background-size: cover;
+    min-height: 400px;
+    opacity: 100%;
+    border: 5px solid lightgrey;
+}
+
+.implantes{
+    background-image: url(../images/implantes.gif);
+    background-size: cover;
+    opacity: 100%;
+    min-height: 400px;
+    border: 5px solid lightgrey;
+    
+}
+.protesis{
+    background-image: url(../images/protesis.gif);
+    background-size: cover;
+    opacity: 100%;
+    min-height: 400px;
+    border: 5px solid lightgrey;
+    
+}
+
+.endodoncia{
+    background-image: url(../images/endodoncia.gif);
+    background-size: cover;
+    opacity: 100%;
+    min-height: 400px;
+    border: 5px solid lightgrey;
+
+}
+
+.blanqueamiento{
+    background-image: url(../images/blanqueamiento.gif);
+    background-size: cover;
+    opacity: 100%;
+    min-height: 400px;
+    border: 5px solid lightgrey;
+}
+
+.placas{
+    background-image: url(../images/placamio.gif);
+    background-size: cover;
+    opacity: 100%;
+    min-height: 400px;
+    border: 5px solid lightgrey;
+}
+
+.protectores {
+    background-image: url(../images/protector.gif);
+    background-size: cover;
+    opacity: 100%;
+    min-height: 400px;
+    border: 5px solid lightgrey;
+     
+}
+
+
+
+
+
